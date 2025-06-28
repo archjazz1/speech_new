@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Speech Memo App</title>
+</head>
+<body>
+  <textarea id="transcriptArea" class="empty" placeholder="Transcript will appear here..."></textarea>
+  <textarea id="enhancedArea" class="empty" placeholder="Enhanced version..."></textarea>
+  <input id="chapterInput" type="text" placeholder="Chapter title..." />
+  <div class="speaker-tags"></div>
+  <div id="statusText" class="status-compact">Ready to record</div>
+  <div id="speakerIndicator"></div>
+  <div class="ai-buttons" id="aiSection"></div>
+  <div>
+    <button id="recordBtn">⏺</button>
+    <button id="quickBtn">Quick Memo</button>
+    <button id="enhanceBtn">Enhance</button>
+    <button id="saveBtn">Save</button>
+    <button id="clearBtn">Clear</button>
+    <button id="promptsBtn">Prompts</button>
+  </div>
+  <div id="promptsModal" class="modal"></div>
+  <script src="speech_memo_app.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+body { font-family: sans-serif; margin: 20px; }
+textarea { width: 100%; height: 120px; margin-bottom: 10px; }
+button { margin-right: 10px; }
+.empty { background: #f9f9f9; }
+.status-compact { font-weight: bold; margin-bottom: 10px; }
+.modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); }
